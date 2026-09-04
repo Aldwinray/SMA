@@ -11,7 +11,8 @@ model routing/cost policy) — this file covers the actual data flow.
 A webapp for looking up U.S. school district contact info (superintendent, email,
 phone, enrollment) for litigation outreach research. The "database" is a single
 real Excel file (`server/data/districts.xlsx`) — there is no separate database
-system. The backend reads/writes that file directly.
+system. The backend reads/writes that file directly. This app is run locally,
+single-user — there is no Firebase/Firestore layer.
 
 ```
 my-app/
@@ -21,6 +22,7 @@ my-app/
 │   │   └── districts.xlsx   ← the actual "database"
 │   ├── index.js             ← API endpoints
 │   ├── districtLookup.js    ← core search + diff-update logic
+│   ├── stateMemo.js         ← state-level memo generation + cache (Step 6)
 │   ├── xlsxStore.js         ← low-level file read/write
 │   ├── modelRouter.js       ← which Claude model handles which task
 │   ├── webSearch.js         ← Claude + web_search tool wrapper
@@ -125,26 +127,54 @@ app's write.
 
 The original research prompt this project is based on has 6 steps (district
 universe → banding → suppression screen → qualification scoring → contact research
-→ state memo). Right now, **only the contact-lookup piece (Step 5) is fully built
-and working** — that's the `/api/district-lookup` flow described above.
+→ state memo). Right now, the contact-lookup piece (Step 5) and the state memo
+(Step 6) are fully built and working — that's the `/api/district-lookup` and
+`/api/state-memo` flows.
 
-The other steps exist as separate, working endpoints, but aren't yet chained
-together into one automated run:
+The other steps exist as separate, working endpoints, verified individually but not
+yet chained together into one automated per-state run:
 
 | Step | Endpoint | Status |
 |---|---|---|
+| 1 — Pull district list for a state | `POST /api/districts/list` | Working, cached 30 days per state |
 | 2 — Enrollment banding | `POST /api/band` | Working (pure code, no model) |
 | 3 — Bulk suppression check | `POST /api/suppression/bulk` | Working, callable individually |
 | 3b — Resolve ambiguous match | `POST /api/suppression/resolve` | Working, callable individually |
 | 4 — Qualification category score | `POST /api/qualify/category` | Working, callable individually |
 | 4b — Composite tier synthesis | `POST /api/qualify/synthesize` | Working, callable individually |
 | 5 — Contact lookup | `POST /api/district-lookup` | **Fully wired, this is the main feature** |
-| 6 — State memo | `POST /api/state-memo` | Working, callable individually |
+| 6 — State memo | `POST /api/state-memo` | Working, cached for 30 days |
 | Usage summary | `GET /api/run/:runId/summary` | Working |
 
 Every model call anywhere in this list goes through `modelRouter.js`, so the model
 tier for a given task is never hardcoded ad hoc — see `CLAUDE.md` for the full
 tier table and cost rules.
+
+---
+
+## The `Superintendent` field fallback behavior
+
+Not every district has a sitting Superintendent to find — some are between hires, or
+use a different title for their top administrator. Rather than leaving the field
+blank in that case, the search prompt (`districtLookup.js`) falls back through a
+priority order:
+
+1. Sitting Superintendent (standard case)
+2. Interim/Acting Superintendent, Superintendent-Designee, or an Assistant/Deputy
+   Superintendent acting as top administrator
+3. District Administrator, or Chief Executive/Chief School Administrator (some
+   states use this title instead of "Superintendent")
+4. Board President/Chair — only as a last resort, if no administrative leader can
+   be found at all
+
+Whichever one is found gets written as `"Full Name (Actual Title)"` — e.g.
+`"Jane Doe (Interim Superintendent)"` — so it's clear at a glance in the spreadsheet
+that this isn't a standard sitting superintendent, without needing a separate column.
+
+This is a **prompt-level fallback only** — no schema or code change was needed in
+`xlsxStore.js`. It plugs into the existing diff-update logic normally: if a district
+later hires a real superintendent, a refresh will detect the changed name/title and
+update the row as usual.
 
 ---
 
@@ -162,3 +192,15 @@ tier table and cost rules.
   `upsertRow()` in `xlsxStore.js` — it should be structurally impossible unless
   `allowInterestStatusUpdate: true` was explicitly passed, which nothing in the
   current codebase does.
+
+---
+
+## Note on the Firebase/Firestore plan
+
+A Firestore + Cloud Functions architecture was drafted for a possible future
+multi-user/remote-access version of this app (see git history around the
+`functions/` scaffolding if it exists). It was shelved in favor of staying on the
+local Express + xlsx setup above, since this app is currently run locally by a
+single person and the added infrastructure (Firebase project, billing plan,
+Firestore rules) wasn't worth the complexity for that use case. Revisit that plan
+if multi-user or remote access becomes a real requirement.

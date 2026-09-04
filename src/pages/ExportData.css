@@ -1,0 +1,45 @@
+.export-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.export-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+
+.export-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.export-filename {
+  flex: 1;
+}
+
+.export-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .export-card {
+    flex-wrap: wrap;
+  }
+
+  .export-filename {
+    flex-basis: 100%;
+  }
+}

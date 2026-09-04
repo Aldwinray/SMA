@@ -1,0 +1,976 @@
+{
+  "Alaska": {
+    "state": "Alaska",
+    "districts": [
+      {
+        "district": "Alaska Gateway School District",
+        "approxEnrollment": 381
+      },
+      {
+        "district": "Aleutian Region School District",
+        "approxEnrollment": 21
+      },
+      {
+        "district": "Aleutians East Borough School District",
+        "approxEnrollment": 178
+      },
+      {
+        "district": "Anchorage School District",
+        "approxEnrollment": 42573
+      },
+      {
+        "district": "Annette Island School District",
+        "approxEnrollment": 301
+      },
+      {
+        "district": "Bering Strait School District",
+        "approxEnrollment": 1745
+      },
+      {
+        "district": "Bristol Bay Borough School District",
+        "approxEnrollment": 106
+      },
+      {
+        "district": "Chatham School District",
+        "approxEnrollment": 161
+      },
+      {
+        "district": "Chugach School District",
+        "approxEnrollment": 617
+      },
+      {
+        "district": "Copper River School District",
+        "approxEnrollment": 393
+      },
+      {
+        "district": "Cordova City School District",
+        "approxEnrollment": 361
+      },
+      {
+        "district": "Craig City School District",
+        "approxEnrollment": 615
+      },
+      {
+        "district": "Delta/Greely School District",
+        "approxEnrollment": 971
+      },
+      {
+        "district": "Denali Borough School District",
+        "approxEnrollment": 1073
+      },
+      {
+        "district": "Dillingham City School District",
+        "approxEnrollment": 403
+      },
+      {
+        "district": "Fairbanks North Star Borough School District",
+        "approxEnrollment": 11857
+      },
+      {
+        "district": "Galena City School District",
+        "approxEnrollment": 8168
+      },
+      {
+        "district": "Haines Borough School District",
+        "approxEnrollment": 255
+      },
+      {
+        "district": "Hoonah City School District",
+        "approxEnrollment": 110
+      },
+      {
+        "district": "Hydaburg City School District",
+        "approxEnrollment": 117
+      },
+      {
+        "district": "Iditarod Area School District",
+        "approxEnrollment": 263
+      },
+      {
+        "district": "Juneau Borough School District",
+        "approxEnrollment": 4085
+      },
+      {
+        "district": "Kake City School District",
+        "approxEnrollment": 117
+      },
+      {
+        "district": "Kashunamiut School District",
+        "approxEnrollment": 320
+      },
+      {
+        "district": "Kenai Peninsula Borough School District",
+        "approxEnrollment": 8510
+      },
+      {
+        "district": "Ketchikan Gateway Borough School District",
+        "approxEnrollment": 2043
+      },
+      {
+        "district": "Klawock City School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Kodiak Island Borough School District",
+        "approxEnrollment": 2122
+      },
+      {
+        "district": "Kuspuk School District",
+        "approxEnrollment": 309
+      },
+      {
+        "district": "Lake and Peninsula School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Lower Kuskokwim School District",
+        "approxEnrollment": 3823
+      },
+      {
+        "district": "Lower Yukon School District",
+        "approxEnrollment": 2027
+      },
+      {
+        "district": "Matanuska-Susitna Borough School District",
+        "approxEnrollment": 19495
+      },
+      {
+        "district": "Nenana City School District",
+        "approxEnrollment": 2279
+      },
+      {
+        "district": "Nome Public Schools",
+        "approxEnrollment": 672
+      },
+      {
+        "district": "North Slope Borough School District",
+        "approxEnrollment": 1853
+      },
+      {
+        "district": "Northwest Arctic Borough School District",
+        "approxEnrollment": 1945
+      },
+      {
+        "district": "Pelican City School District",
+        "approxEnrollment": 12
+      },
+      {
+        "district": "Petersburg City School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Pribilof School District",
+        "approxEnrollment": 65
+      },
+      {
+        "district": "Saint Mary's School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Sitka School District",
+        "approxEnrollment": 1080
+      },
+      {
+        "district": "Skagway School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Southeast Island School District",
+        "approxEnrollment": 164
+      },
+      {
+        "district": "Southwest Region School District",
+        "approxEnrollment": 615
+      },
+      {
+        "district": "Tanana City School District",
+        "approxEnrollment": 30
+      },
+      {
+        "district": "Unalaska City School District",
+        "approxEnrollment": 337
+      },
+      {
+        "district": "Valdez City School District",
+        "approxEnrollment": 605
+      },
+      {
+        "district": "Wrangell Public School District",
+        "approxEnrollment": 264
+      },
+      {
+        "district": "Yakutat School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Yukon Flats School District",
+        "approxEnrollment": 175
+      },
+      {
+        "district": "Yukon-Koyukuk School District",
+        "approxEnrollment": 4024
+      },
+      {
+        "district": "Yupiit School District",
+        "approxEnrollment": 522
+      }
+    ],
+    "generated_date": "2026-09-01T21:12:42.528Z"
+  },
+  "alaska": {
+    "state": "alaska",
+    "districts": [
+      {
+        "district": "Alaska Gateway School District",
+        "approxEnrollment": 381
+      },
+      {
+        "district": "Aleutian Region School District",
+        "approxEnrollment": 21
+      },
+      {
+        "district": "Aleutians East Borough School District",
+        "approxEnrollment": 178
+      },
+      {
+        "district": "Anchorage School District",
+        "approxEnrollment": 42573
+      },
+      {
+        "district": "Annette Island School District",
+        "approxEnrollment": 301
+      },
+      {
+        "district": "Bering Strait School District",
+        "approxEnrollment": 1745
+      },
+      {
+        "district": "Bristol Bay Borough School District",
+        "approxEnrollment": 106
+      },
+      {
+        "district": "Chatham School District",
+        "approxEnrollment": 161
+      },
+      {
+        "district": "Chugach School District",
+        "approxEnrollment": 617
+      },
+      {
+        "district": "Copper River School District",
+        "approxEnrollment": 393
+      },
+      {
+        "district": "Cordova City School District",
+        "approxEnrollment": 361
+      },
+      {
+        "district": "Craig City School District",
+        "approxEnrollment": 615
+      },
+      {
+        "district": "Delta/Greely School District",
+        "approxEnrollment": 971
+      },
+      {
+        "district": "Denali Borough School District",
+        "approxEnrollment": 1073
+      },
+      {
+        "district": "Dillingham City School District",
+        "approxEnrollment": 403
+      },
+      {
+        "district": "Fairbanks North Star Borough School District",
+        "approxEnrollment": 11857
+      },
+      {
+        "district": "Galena City School District",
+        "approxEnrollment": 7768
+      },
+      {
+        "district": "Haines Borough School District",
+        "approxEnrollment": 255
+      },
+      {
+        "district": "Hoonah City School District",
+        "approxEnrollment": 113
+      },
+      {
+        "district": "Hydaburg City School District",
+        "approxEnrollment": 116
+      },
+      {
+        "district": "Iditarod Area School District",
+        "approxEnrollment": 263
+      },
+      {
+        "district": "Juneau School District",
+        "approxEnrollment": 4085
+      },
+      {
+        "district": "Kake City School District",
+        "approxEnrollment": 117
+      },
+      {
+        "district": "Kashunamiut School District",
+        "approxEnrollment": 320
+      },
+      {
+        "district": "Kenai Peninsula Borough School District",
+        "approxEnrollment": 8510
+      },
+      {
+        "district": "Ketchikan Gateway Borough School District",
+        "approxEnrollment": 2043
+      },
+      {
+        "district": "Klawock City School District",
+        "approxEnrollment": 133
+      },
+      {
+        "district": "Kodiak Island Borough School District",
+        "approxEnrollment": 2122
+      },
+      {
+        "district": "Kuspuk School District",
+        "approxEnrollment": 309
+      },
+      {
+        "district": "Lake and Peninsula Borough School District",
+        "approxEnrollment": 332
+      },
+      {
+        "district": "Lower Kuskokwim School District",
+        "approxEnrollment": 3823
+      },
+      {
+        "district": "Lower Yukon School District",
+        "approxEnrollment": 2027
+      },
+      {
+        "district": "Matanuska-Susitna Borough School District",
+        "approxEnrollment": 19495
+      },
+      {
+        "district": "Nenana City School District",
+        "approxEnrollment": 2279
+      },
+      {
+        "district": "Nome Public Schools",
+        "approxEnrollment": 672
+      },
+      {
+        "district": "North Slope Borough School District",
+        "approxEnrollment": 1853
+      },
+      {
+        "district": "Northwest Arctic Borough School District",
+        "approxEnrollment": 1945
+      },
+      {
+        "district": "Pelican City School District",
+        "approxEnrollment": 12
+      },
+      {
+        "district": "Petersburg Borough School District",
+        "approxEnrollment": 476
+      },
+      {
+        "district": "Pribilof School District",
+        "approxEnrollment": 65
+      },
+      {
+        "district": "Saint Mary's School District",
+        "approxEnrollment": 191
+      },
+      {
+        "district": "Sitka School District",
+        "approxEnrollment": 1080
+      },
+      {
+        "district": "Skagway School District",
+        "approxEnrollment": 145
+      },
+      {
+        "district": "Southeast Island School District",
+        "approxEnrollment": 164
+      },
+      {
+        "district": "Southwest Region School District",
+        "approxEnrollment": 615
+      },
+      {
+        "district": "Tanana City School District",
+        "approxEnrollment": 30
+      },
+      {
+        "district": "Unalaska City School District",
+        "approxEnrollment": 337
+      },
+      {
+        "district": "Valdez City School District",
+        "approxEnrollment": 605
+      },
+      {
+        "district": "Wrangell Public School District",
+        "approxEnrollment": 264
+      },
+      {
+        "district": "Yakutat School District",
+        "approxEnrollment": 106
+      },
+      {
+        "district": "Yukon Flats School District",
+        "approxEnrollment": 175
+      },
+      {
+        "district": "Yukon-Koyukuk School District",
+        "approxEnrollment": 4024
+      },
+      {
+        "district": "Yupiit School District",
+        "approxEnrollment": 522
+      }
+    ],
+    "generated_date": "2026-09-02T12:58:23.573Z"
+  },
+  "Oregon": {
+    "state": "Oregon",
+    "districts": [
+      {
+        "district": "Portland School District 1J",
+        "approxEnrollment": 43357
+      },
+      {
+        "district": "Salem-Keizer School District 24J",
+        "approxEnrollment": 37982
+      },
+      {
+        "district": "Beaverton School District 48J",
+        "approxEnrollment": 37891
+      },
+      {
+        "district": "Hillsboro School District 1J",
+        "approxEnrollment": 18781
+      },
+      {
+        "district": "Bend-LaPine School District",
+        "approxEnrollment": 16878
+      },
+      {
+        "district": "North Clackamas School District 12",
+        "approxEnrollment": 16982
+      },
+      {
+        "district": "Eugene School District 4J",
+        "approxEnrollment": 15110
+      },
+      {
+        "district": "Medford School District 549C",
+        "approxEnrollment": 13981
+      },
+      {
+        "district": "Gresham-Barlow School District 10J",
+        "approxEnrollment": 11656
+      },
+      {
+        "district": "Reynolds School District 7",
+        "approxEnrollment": 9762
+      },
+      {
+        "district": "Tigard-Tualatin School District 23J",
+        "approxEnrollment": 12625
+      },
+      {
+        "district": "Lake Oswego School District 7J",
+        "approxEnrollment": 6854
+      },
+      {
+        "district": "Corvallis School District 509J",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Grants Pass School District 7",
+        "approxEnrollment": 5700
+      },
+      {
+        "district": "Lincoln County School District",
+        "approxEnrollment": 5187
+      },
+      {
+        "district": "Oregon Trail School District 46",
+        "approxEnrollment": 4222
+      },
+      {
+        "district": "Central School District 13J",
+        "approxEnrollment": 3223
+      },
+      {
+        "district": "Klamath County School District",
+        "approxEnrollment": 6800
+      },
+      {
+        "district": "Klamath Falls City School District",
+        "approxEnrollment": 2770
+      },
+      {
+        "district": "Phoenix-Talent School District 4",
+        "approxEnrollment": 2402
+      },
+      {
+        "district": "Scappoose School District 1J",
+        "approxEnrollment": 2223
+      },
+      {
+        "district": "Corbett School District 39",
+        "approxEnrollment": 1077
+      },
+      {
+        "district": "Amity School District 4J",
+        "approxEnrollment": 836
+      },
+      {
+        "district": "Blachly School District",
+        "approxEnrollment": 399
+      }
+    ],
+    "generated_date": "2026-09-02T13:28:01.146Z"
+  },
+  "Montana": {
+    "state": "Montana",
+    "districts": [
+      {
+        "district": "Billings Elementary School District",
+        "approxEnrollment": 10988
+      },
+      {
+        "district": "Great Falls Elementary School District",
+        "approxEnrollment": 6890
+      },
+      {
+        "district": "Missoula Elementary School District",
+        "approxEnrollment": 5293
+      },
+      {
+        "district": "Helena Elementary School District",
+        "approxEnrollment": 5225
+      },
+      {
+        "district": "Bozeman Elementary School District",
+        "approxEnrollment": 4800
+      },
+      {
+        "district": "Bozeman High School District",
+        "approxEnrollment": 2743
+      },
+      {
+        "district": "Billings High School District",
+        "approxEnrollment": 5444
+      },
+      {
+        "district": "Helena High School District",
+        "approxEnrollment": 2388
+      },
+      {
+        "district": "Missoula High School District",
+        "approxEnrollment": 3959
+      },
+      {
+        "district": "Great Falls High School District",
+        "approxEnrollment": 3200
+      },
+      {
+        "district": "Kalispell Elementary School District",
+        "approxEnrollment": 3097
+      },
+      {
+        "district": "Flathead High School District",
+        "approxEnrollment": 2976
+      },
+      {
+        "district": "Livingston Elementary School District",
+        "approxEnrollment": 837
+      },
+      {
+        "district": "Butte High School District",
+        "approxEnrollment": 1300
+      },
+      {
+        "district": "Beaverhead County High School District",
+        "approxEnrollment": 350
+      },
+      {
+        "district": "Custer County High School District",
+        "approxEnrollment": 492
+      },
+      {
+        "district": "Gallatin High School District",
+        "approxEnrollment": 2880
+      },
+      {
+        "district": "Glacier High School District",
+        "approxEnrollment": 2800
+      },
+      {
+        "district": "Glendive Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Dawson County High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Conrad Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Conrad High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Evergreen Elementary School District",
+        "approxEnrollment": 645
+      },
+      {
+        "district": "Bigfork Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Bigfork High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Plevna K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Eldergrove Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Lockwood K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Frontier Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Fromberg K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Libby K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Belt Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Belt High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Plentywood K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Fairfield Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Fairfield High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Belgrade Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Belgrade High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Noxon K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Reed Point Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Reed Point High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Helena Flats Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "East Helena School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Arlee Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Arlee High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Ekalaka K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "St. Regis K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Joliet Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Joliet High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Roy K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Brockton K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Montana City Elementary School District",
+        "approxEnrollment": 471
+      },
+      {
+        "district": "Clancy Elementary School District",
+        "approxEnrollment": 374
+      },
+      {
+        "district": "Wyola Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Columbia Falls Elementary School District",
+        "approxEnrollment": 1585
+      },
+      {
+        "district": "Whitefish K-12 Schools",
+        "approxEnrollment": 1333
+      },
+      {
+        "district": "Somers Elementary School District",
+        "approxEnrollment": 533
+      },
+      {
+        "district": "Creston Elementary School District",
+        "approxEnrollment": 83
+      },
+      {
+        "district": "Deer Park Elementary School District",
+        "approxEnrollment": 168
+      },
+      {
+        "district": "Fair-Mont-Egan Elementary School District",
+        "approxEnrollment": 156
+      },
+      {
+        "district": "Helena Flats Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Alberton K-12 Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Absarokee Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Absarokee High School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Fairview Elementary School District",
+        "approxEnrollment": 179
+      },
+      {
+        "district": "Poplar School District",
+        "approxEnrollment": 272
+      },
+      {
+        "district": "Belgrade Elementary School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Big Sandy K-12 Schools",
+        "approxEnrollment": 55
+      },
+      {
+        "district": "Canyon Creek Elementary School District",
+        "approxEnrollment": null
+      }
+    ],
+    "generated_date": "2026-09-02T16:39:50.304Z"
+  },
+  "North Dakota": {
+    "state": "North Dakota",
+    "districts": [
+      {
+        "district": "Bismarck Public Schools",
+        "approxEnrollment": 13500
+      },
+      {
+        "district": "Fargo Public Schools",
+        "approxEnrollment": 11061
+      },
+      {
+        "district": "West Fargo Public Schools",
+        "approxEnrollment": 13471
+      },
+      {
+        "district": "Minot Public Schools",
+        "approxEnrollment": 7300
+      },
+      {
+        "district": "Grand Forks Public Schools",
+        "approxEnrollment": 7200
+      },
+      {
+        "district": "Dickinson Public Schools",
+        "approxEnrollment": 3810
+      },
+      {
+        "district": "Mandan Public Schools",
+        "approxEnrollment": 3500
+      },
+      {
+        "district": "Jamestown Public Schools",
+        "approxEnrollment": 2200
+      },
+      {
+        "district": "Wahpeton Public Schools",
+        "approxEnrollment": 1209
+      },
+      {
+        "district": "Williston Basin School District 7",
+        "approxEnrollment": 5414
+      },
+      {
+        "district": "Killdeer Public School District",
+        "approxEnrollment": 598
+      },
+      {
+        "district": "Lewis and Clark Public School District",
+        "approxEnrollment": 435
+      },
+      {
+        "district": "North Star School District",
+        "approxEnrollment": 316
+      },
+      {
+        "district": "Maple Valley Public School District",
+        "approxEnrollment": 238
+      },
+      {
+        "district": "Center-Stanton Public School District 1",
+        "approxEnrollment": 259
+      },
+      {
+        "district": "Fort Yates School District",
+        "approxEnrollment": 108
+      },
+      {
+        "district": "Fort Totten School District",
+        "approxEnrollment": 220
+      },
+      {
+        "district": "Mandaree School District",
+        "approxEnrollment": 221
+      },
+      {
+        "district": "Sweet Briar School District",
+        "approxEnrollment": 23
+      },
+      {
+        "district": "Valley City Public School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Carrington Public Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Devils Lake Public Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Bottineau Public Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Belcourt School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Harvey Public Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "LaMoure Public Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Litchville-Marion School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Ellendale School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Eight Mile School District",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Goodrich Public School District 16",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Hope-Page Public Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Leeds School District 6",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Bowman County School District 1",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Fairmount Public School District 18",
+        "approxEnrollment": 39
+      },
+      {
+        "district": "New Town Public Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Grafton Public Schools",
+        "approxEnrollment": null
+      },
+      {
+        "district": "Langdon Area School District 23",
+        "approxEnrollment": null
+      }
+    ],
+    "generated_date": "2026-09-02T16:54:40.312Z"
+  }
+}

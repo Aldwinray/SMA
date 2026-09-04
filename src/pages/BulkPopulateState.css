@@ -1,0 +1,74 @@
+.bp-preview {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.bp-preview-hint {
+  margin: 2px 0 12px;
+}
+
+.bp-progress {
+  margin-bottom: 20px;
+}
+
+.bp-progress-track {
+  height: 6px;
+  background: var(--surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.bp-progress-fill {
+  height: 100%;
+  width: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .bp-progress-fill {
+    transition: transform 300ms ease;
+  }
+}
+
+.bp-warning {
+  border: 1px solid var(--changed);
+  color: var(--changed);
+  background: var(--changed-tint-soft);
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+.bp-summary {
+  margin-top: 8px;
+}
+
+.bp-usage-fields {
+  margin: 10px 0 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px 14px;
+  background: var(--surface);
+}
+
+.bp-result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 560px;
+  overflow-y: auto;
+  padding-right: 4px;
+  margin-top: 16px;
+}
+
+.bp-card {
+  margin-top: 0;
+}
